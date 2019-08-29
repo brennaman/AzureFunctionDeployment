@@ -29,6 +29,9 @@
         "inputHubNameDiagnosticsLogs": {
             "value": "my-hub-name-for-diagnostics-logs"
         },
+        "inputHubNameKubeapiserverDiagnosticLogs": {
+            "value": "insights-logs-kube-apiserver"
+        },
         "inputHubNameMetrics": {
             "value": "my-hub-name-for-metrics"
         },

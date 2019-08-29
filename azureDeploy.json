@@ -10,7 +10,7 @@
         },
         "appServicePlanType" : {
             "type": "string",
-            "defaultValue": "ServicePlan",
+            "defaultValue": "Consumption",
             "allowedValues": [
                 "ServicePlan",
                 "Consumption"
@@ -42,7 +42,7 @@
         },
         "appInsightsLocation": {
             "type": "string",
-            "defaultValue": "UK South",
+            "defaultValue": "East US",
             "allowedValues": [
                 "Australia East",
                 "Canada Central",
@@ -66,7 +66,7 @@
         },
         "githubRepoURL": {
             "type": "string",
-            "defaultValue": "https://github.com/microsoft/AzureFunctionForSplunkVS.git"
+            "defaultValue": "https://github.com/brennaman/AzureFunctionForSplunkVS.git"
         },
         "githubRepoBranch": {
             "type": "string",
@@ -88,7 +88,15 @@
             "type": "string",
             "defaultValue": "insights-logs-diagnostics"
         },
+        "inputHubNameKubeapiserverDiagnosticLogs": {
+            "type": "string",
+            "defaultValue": "insights-logs-kube-apiserver"
+        },
         "consumerGroupNameDiagnosticLogs": {
+            "type": "string",
+            "defaultValue": "$default"
+        },
+        "consumerGroupKubeapiserverDiagnosticLogs": {
             "type": "string",
             "defaultValue": "$default"
         },
