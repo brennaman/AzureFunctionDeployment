@@ -283,8 +283,16 @@
                             "value": "[parameters('inputHubNameDiagnosticLogs')]"
                         },
                         {
+                            "name": "input-hub-name-kubeapiserver-diagnostic-logs",
+                            "value": "[parameters('inputHubNameKubeapiserverDiagnosticLogs')]"
+                        },
+                        {
                             "name": "consumer-group-diagnostic-logs",
                             "value": "[parameters('consumerGroupNameDiagnosticLogs')]"
+                        },
+                        {
+                            "name": "consumer-group-kubeapiserver-diagnostic-logs",
+                            "value": "[parameters('consumerGroupKubeapiserverDiagnosticLogs')]"
                         },
                         {
                             "name": "input-hub-name-metrics",
